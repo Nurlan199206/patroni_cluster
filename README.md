@@ -19,7 +19,7 @@ PostgreSQL: ```15.5```
 
 ```192.168.1.113```  - replica
 
-# etcd
+# etcd nodes
 
 ```192.168.1.111```
 
