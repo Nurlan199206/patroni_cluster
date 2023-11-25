@@ -1,20 +1,28 @@
 # Ansible
 
 Software Version
+
 OS: ```Ubuntu 22.04```
+
 PostgreSQL: ```15.5```
 
 
 # Hosts
 
 ```192.168.1.110``` - lb
+
 ```192.168.1.111``` - master
+
 ```192.168.1.112``` - replica
-```192.168.1.113```
+
+```192.168.1.113```  - replica
 
 # etcd
+
 ```192.168.1.111```
+
 ```192.168.1.112```
+
 ```192.168.1.113```
 
 # Installation
@@ -49,7 +57,8 @@ Are you sure you want to switchover cluster stampede1, demoting current primary 
 +--------+-------+---------+---------+----+-----------+
 ```
 
-#troubleshoot
+# troubleshoot
+
 ```sudo journalctl -u patroni.service -n 100 -f```
 
 
