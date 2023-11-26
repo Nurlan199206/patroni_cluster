@@ -39,6 +39,23 @@ PostgreSQL: ```15.5```
 
 create or delete test databases etc...
 
+
+```
+create database delivery;
+
+create user nurlan;
+
+GRANT ALL PRIVILEGES ON DATABASE delivery TO nurlan;
+
+ALTER USER nurlan WITH PASSWORD 'qwerty123';
+```
+
+Connection test via DBeaver
+
+![image](https://github.com/Nurlan199206/patroni_cluster/assets/22808731/96687d04-d984-4a74-9994-081a85f12f83)
+
+
+
 ```watch 'psql -c "\l"'```
 
 
