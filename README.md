@@ -33,6 +33,12 @@ PostgreSQL: ```15.5```
 # check cluster nodes
 ```sudo patronictl -c /etc/patroni/patroni.yml --help```
 
+# play with cluster
+
+create or delete test databases etc...
+
+```watch 'psql -c "\l"'```
+
 ```sudo patronictl -c /etc/patroni/patroni.yml list```
 
 # Manual switchover
