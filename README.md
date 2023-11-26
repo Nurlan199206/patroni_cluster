@@ -35,6 +35,18 @@ PostgreSQL: ```15.5```
 
 ```sudo patronictl -c /etc/patroni/patroni.yml list```
 
+
+```
++ Cluster: postgres-cluster (7305439748098054840) ----+----+-----------+
+| Member   | Host          | Role         | State     | TL | Lag in MB |
++----------+---------------+--------------+-----------+----+-----------+
+| pgnode01 | 192.168.1.111 | Sync Standby | streaming |  5 |         0 |
+| pgnode02 | 192.168.1.112 | Leader       | running   |  5 |           |
+| pgnode03 | 192.168.1.113 | Replica      | streaming |  5 |         0 |
++----------+---------------+--------------+-----------+----+-----------+
+```
+
+
 # play with cluster
 
 create or delete test databases etc...
