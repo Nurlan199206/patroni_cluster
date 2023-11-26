@@ -34,7 +34,7 @@ PostgreSQL: ```15.5```
 ```sudo patronictl -c /etc/patroni/patroni.yml --help```
 ```sudo patronictl -c /etc/patroni/patroni.yml list```
 
-#Manual switchover
+# Manual switchover
 sudo patronictl -c /etc/patroni/patroni.yml switchover
 
 
