@@ -32,6 +32,7 @@ PostgreSQL: ```15.5```
 
 # check cluster nodes
 ```sudo patronictl -c /etc/patroni/patroni.yml --help```
+
 ```sudo patronictl -c /etc/patroni/patroni.yml list```
 
 # Manual switchover
