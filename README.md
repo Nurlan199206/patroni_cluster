@@ -101,5 +101,8 @@ Are you sure you want to switchover cluster stampede1, demoting current primary 
 
 ```sudo journalctl -u patroni.service -n 100 -f```
 
+# dynamically edit config
+
+```patronictl -c /etc/patroni/prod-hm-postgresql-03.yml edit-config```
 
 
